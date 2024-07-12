@@ -95,7 +95,6 @@ public final class KnightsTour {
         return false;
     }
 
-    // Returns List of neighbours
     private static List<int[]> neighbors(int row, int column) {
         List<int[]> neighbour = new ArrayList<>();
 
@@ -111,7 +110,6 @@ public final class KnightsTour {
         return neighbour;
     }
 
-    // Returns the total count of neighbors
     private static int countNeighbors(int row, int column) {
         int num = 0;
         for (int[] m : MOVES) {
