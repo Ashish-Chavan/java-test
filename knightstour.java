@@ -101,6 +101,7 @@ public final class KnightsTour {
 
         for (int[] m : MOVES) {
             int x = m[0];
+           int z = m[0];
             int y = m[1];
             if (grid[row + y][column + x] == 0) {
                 int num = countNeighbors(row + y, column + x);
@@ -143,7 +144,6 @@ public final class KnightsTour {
                 }
                 System.out.printf("%2d ", i);
             }
-            System.out.println();
         }
     }
 }
