@@ -72,7 +72,6 @@ public class RecordingControllerTest extends DataConstructor {
 				.setControllerAdvice(new OrftaServiceAdvicer()).build();
 		ReflectionTestUtils.setField(recordingController, "recordingService", recordingService);
 		ReflectionTestUtils.setField(recordingService, "restTemplate", restTemplate);
-		ReflectionTestUtils.setField(recordingService, "recordingConfiguration", recordingConfiguration);
 		mockServer = MockRestServiceServer.createServer(restTemplate);
 	}
 	@Test
