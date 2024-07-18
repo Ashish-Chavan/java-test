@@ -64,16 +64,7 @@ public class RecordingControllerTest extends DataConstructor {
 	@Mock
 	BasicConfiguration configuration;
 	
-	@Before
-	public void init() {
-
-		MockitoAnnotations.initMocks(this);
-		this.mockMvc = MockMvcBuilders.standaloneSetup(recordingController)
-				.setControllerAdvice(new OrftaServiceAdvicer()).build();
-		ReflectionTestUtils.setField(recordingController, "recordingService", recordingService);
-		ReflectionTestUtils.setField(recordingService, "restTemplate", restTemplate);
-		mockServer = MockRestServiceServer.createServer(restTemplate);
-	}
+	
 	@Test
 	public void repositoryDiscountListTest() throws Throwable {
 		ResponseEntity<CommonResponseDTO> response = new ResponseEntity<CommonResponseDTO>(HttpStatus.OK);
