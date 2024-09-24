@@ -1,0 +1,192 @@
+[group1_VM1]
+jupiter_domain2_VM1 ansible_host=10.10.136.119 ansible_ssh_user=esbju02 admin_port=61000 admin_password=esbju02119 manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.4" vm1_flag="true"
+
+[bea]
+bea_blp10639526 ansible_host=10.10.136.119 weblogicVersion="12.2.1.4"
+
+
+
+#[group1_VM1]
+#mars_domain3_VM1 ansible_host=10.54.227.179 ansible_ssh_user=esbma03 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain4_VM1 ansible_host=10.54.227.182 ansible_ssh_user=esbma04 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain1_VM1 ansible_host=10.54.227.167 ansible_ssh_user=esbma01 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain5_VM1 ansible_host=10.54.227.183 ansible_ssh_user=esbma05 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain6_VM1 ansible_host=10.54.227.185 ansible_ssh_user=esbma06 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain7_VM1 ansible_host=10.54.227.178 ansible_ssh_user=esbma07 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain2_VM1 ansible_host=10.54.249.204 ansible_ssh_user=esbma02 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.4" vm1_flag="true"
+#mars_domain8_VM1 ansible_host=10.54.249.206 ansible_ssh_user=esbma08 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.4" vm1_flag="true"
+#mars_domain9_VM1 ansible_host=10.54.249.208 ansible_ssh_user=esbma09 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.4" vm1_flag="true"
+#bacchus_domain3_VM1 ansible_host=10.54.227.179 ansible_ssh_user=esbba03 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain4_VM1 ansible_host=10.54.227.182 ansible_ssh_user=esbba04 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain1_VM1 ansible_host=10.54.227.167 ansible_ssh_user=esbba01 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain5_VM1 ansible_host=10.54.227.183 ansible_ssh_user=esbba05 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain6_VM1 ansible_host=10.54.227.185 ansible_ssh_user=esbba06 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain7_VM1 ansible_host=10.54.227.178 ansible_ssh_user=esbba07 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain2_VM1 ansible_host=10.54.249.204 ansible_ssh_user=esbba02 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.4" vm1_flag="true"
+#bacchus_domain8_VM1 ansible_host=10.54.249.206 ansible_ssh_user=esbba08 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.4" vm1_flag="true"
+#bacchus_domain9_VM1 ansible_host=10.54.249.208 ansible_ssh_user=esbba09 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.4" vm1_flag="true"
+#
+#[bea]
+#bea_blt10639177 ansible_host=10.54.227.179 weblogicVersion="12.2.1.3"
+#bea_blt10639180 ansible_host=10.54.227.182 weblogicVersion="12.2.1.3"
+#bea_blt10639170 ansible_host=10.54.227.167 weblogicVersion="12.2.1.3"
+#bea_blt10639181 ansible_host=10.54.227.183 weblogicVersion="12.2.1.3"
+#bea_blt10639183 ansible_host=10.54.227.185 weblogicVersion="12.2.1.3"
+#bea_blt10639176 ansible_host=10.54.227.178 weblogicVersion="12.2.1.3"
+#bea_blt10639204 ansible_host=10.54.249.204 weblogicVersion="12.2.1.4"
+#bea_blt10639206 ansible_host=10.54.249.206 weblogicVersion="12.2.1.4"
+#bea_blt10639208 ansible_host=10.54.249.208 weblogicVersion="12.2.1.4"
+
+
+#[dev]
+#dev_domain1 ansible_host=10.54.206.95 ansible_ssh_user=esbdv01 admin_port=61000 admin_password=removed manserverslist="managed1_","managed2_" manserverportslist=61001,61002 weblogicVersion="12.2.1.3" vm1_flag="true"
+#dev_domain3 ansible_host=10.54.206.96 ansible_ssh_user=esbdv03 admin_port=61000 admin_password=removed manserverslist="managed1_","managed2_" manserverportslist=61001,61002 weblogicVersion="12.2.1.3" vm1_flag="true"
+#dev_domain4 ansible_host=10.54.206.96 ansible_ssh_user=esbdv04 admin_port=61010 admin_password=removed manserverslist="managed1_","managed2_" manserverportslist=61011,61012 weblogicVersion="12.2.1.3" vm1_flag="true"
+#dev_domain5 ansible_host=10.54.206.104 ansible_ssh_user=esbdv05 admin_port=61000 admin_password=removed manserverslist="managed1_","managed2_" manserverportslist=61001,61002 weblogicVersion="12.2.1.3" vm1_flag="true"
+#dev_domain6 ansible_host=10.54.206.104 ansible_ssh_user=esbdv06 admin_port=61010 admin_password=removed manserverslist="managed1_","managed2_" manserverportslist=61011,61012 weblogicVersion="12.2.1.3" vm1_flag="true"
+#dev_domain7 ansible_host=10.54.206.95 ansible_ssh_user=esbdv07 admin_port=61010 admin_password=removed manserverslist="managed1_","managed2_" manserverportslist=61011,61012 weblogicVersion="12.2.1.3" vm1_flag="true"
+#dev_domain2_VM1 ansible_host=10.10.128.25 ansible_ssh_user=esbdv02 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.4" vm1_flag="true"
+#dev_domain2_VM2 ansible_host=10.10.128.26 ansible_ssh_user=esbdv02 admin_port=61000 admin_password=removed manserverslist="managed2_" manserverportslist=61002 weblogicVersion="12.2.1.4" vm1_flag="false"
+#dev_domain8_VM1 ansible_host=10.10.128.26  ansible_ssh_user=esbdv08 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.4" vm1_flag="true"
+#dev_domain8_VM2 ansible_host=10.10.128.25 ansible_ssh_user=esbdv08 admin_port=61010 admin_password=removed manserverslist="managed2_" manserverportslist=61012 weblogicVersion="12.2.1.4" vm1_flag="false"
+#dev_domain9_VM1 ansible_host=10.10.128.26  ansible_ssh_user=esbdv09 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.4" vm1_flag="true"
+#dev_domain9_VM2 ansible_host=10.10.128.25 ansible_ssh_user=esbdv09 admin_port=61020 admin_password=removed manserverslist="managed2_" manserverportslist=61022 weblogicVersion="12.2.1.4" vm1_flag="false"
+#
+#
+#
+#[bea_dev]
+#bea_95 ansible_host=10.54.206.95 weblogicVersion="12.2.1.3"
+#bea_96 ansible_host=10.54.206.96 weblogicVersion="12.2.1.3"
+#bea_104 ansible_host=10.54.206.104 weblogicVersion="12.2.1.3"
+#bea_25 ansible_host=10.10.128.25 weblogicVersion="12.2.1.4"
+#bea_26 ansible_host=10.10.128.26 weblogicVersion="12.2.1.4"
+
+#[ref]
+#ref_domain3_VM1 ansible_host=10.54.244.59 ansible_ssh_user=esbrf03 admin_port=61000 admin_password=removed  manserverslist="managed1_","managed2_","managed3_","managed4_" manserverportslist=61001,61002 weblogicVersion="12.2.1.3" vm1_flag="true"
+#ref_domain3_VM2 ansible_host=10.54.244.60 ansible_ssh_user=esbrf03 admin_port=61000 admin_password=removed  manserverslist="managed5_","managed6_","managed7_","managed8_" manserverportslist=61005,61006 weblogicVersion="12.2.1.3" vm1_flag="false"
+#ref_domain4_VM1 ansible_host=10.54.244.57 ansible_ssh_user=esbrf04 admin_port=61030 admin_password=removed  manserverslist="managed1_","managed2_","managed3_","managed4_" manserverportslist=61031,61032 weblogicVersion="12.2.1.3" vm1_flag="true"
+#ref_domain4_VM2 ansible_host=10.54.244.58 ansible_ssh_user=esbrf04 admin_port=61030 admin_password=removed  manserverslist="managed5_","managed6_","managed7_","managed8_" manserverportslist=61035,61036 weblogicVersion="12.2.1.3" vm1_flag="false"
+#ref_domain1_VM1 ansible_host=10.54.244.68 ansible_ssh_user=esbrf01 admin_port=61000 admin_password=removed  manserverslist="managed1_","managed2_","managed3_","managed4_" manserverportslist=61001,61002 weblogicVersion="12.2.1.3" vm1_flag="true"
+#ref_domain1_VM2 ansible_host=10.54.244.69 ansible_ssh_user=esbrf01 admin_port=61000 admin_password=removed  manserverslist="managed5_","managed6_","managed7_","managed8_" manserverportslist=61005,61006 weblogicVersion="12.2.1.3" vm1_flag="false"
+#ref_domain5_VM1 ansible_host=10.54.244.236 ansible_ssh_user=esbrf05 admin_port=61000 admin_password=removed manserverslist="managed1_","managed2_","managed3_","managed4_" manserverportslist=61001,61002 weblogicVersion="12.2.1.3" vm1_flag="true"
+#ref_domain5_VM2 ansible_host=10.54.244.237 ansible_ssh_user=esbrf05 admin_port=61000 admin_password=removed manserverslist="managed5_","managed6_","managed7_","managed8_" manserverportslist=61005,61006 weblogicVersion="12.2.1.3" vm1_flag="false"
+#ref_domain6_VM1 ansible_host=10.54.244.238 ansible_ssh_user=esbrf06 admin_port=61010 admin_password=removed manserverslist="managed1_","managed2_","managed3_","managed4_" manserverportslist=61001,61002 weblogicVersion="12.2.1.3" vm1_flag="true"
+#ref_domain6_VM2 ansible_host=10.54.244.239 ansible_ssh_user=esbrf06 admin_port=61010 admin_password=removed manserverslist="managed5_","managed6_","managed7_","managed8_" manserverportslist=61005,61006 weblogicVersion="12.2.1.3" vm1_flag="false"
+#ref_domain7_VM1 ansible_host=10.54.244.240 ansible_ssh_user=esbrf07 admin_port=61000 admin_password=removed manserverslist="managed1_","managed2_","managed3_","managed4_" manserverportslist=61001,61002 weblogicVersion="12.2.1.3" vm1_flag="true"
+#ref_domain7_VM2 ansible_host=10.54.244.241 ansible_ssh_user=esbrf07 admin_port=61000 admin_password=removed manserverslist="managed5_","managed6_","managed7_","managed8_" manserverportslist=61005,61006 weblogicVersion="12.2.1.3" vm1_flag="false"
+#ref_domain2_VM1 ansible_host=10.10.136.132 ansible_ssh_user=esbrf02 admin_port=61000 admin_password=removed manserverslist="managed1_","managed2_","managed3_","managed4_" manserverportslist=61001,61002 weblogicVersion="12.2.1.4" vm1_flag="true"
+#ref_domain2_VM2 ansible_host=10.10.136.133 ansible_ssh_user=esbrf02 admin_port=61000 admin_password=removed manserverslist="managed5_","managed6_","managed7_","managed8_" manserverportslist=61005,61006 weblogicVersion="12.2.1.4" vm1_flag="false"
+#ref_domain8_VM1 ansible_host=10.10.136.134 ansible_ssh_user=esbrf08 admin_port=61000 admin_password=removed manserverslist="managed1_","managed2_","managed3_","managed4_" manserverportslist=61001,61002 weblogicVersion="12.2.1.4" vm1_flag="true"
+#ref_domain8_VM2 ansible_host=10.10.136.135 ansible_ssh_user=esbrf08 admin_port=61000 admin_password=removed manserverslist="managed5_","managed6_","managed7_","managed8_" manserverportslist=61005,61006 weblogicVersion="12.2.1.4" vm1_flag="false"
+#ref_domain9_VM1 ansible_host=10.10.136.128 ansible_ssh_user=esbrf09 admin_port=61000 admin_password=removed manserverslist="managed1_","managed2_","managed3_","managed4_" manserverportslist=61001,61002 weblogicVersion="12.2.1.4" vm1_flag="true"
+#ref_domain9_VM2 ansible_host=10.10.136.129 ansible_ssh_user=esbrf09 admin_port=61000 admin_password=removed manserverslist="managed5_","managed6_","managed7_","managed8_" manserverportslist=61005,61006 weblogicVersion="12.2.1.4" vm1_flag="false"
+#
+#[bea_ref]
+#bea_domain3_VM1 ansible_host=10.54.244.59 weblogicVersion="12.2.1.3"
+#bea_domain3_VM2 ansible_host=10.54.244.60 weblogicVersion="12.2.1.3"
+#bea_domain4_VM1 ansible_host=10.54.244.57 weblogicVersion="12.2.1.3"
+#bea_domain4_VM2 ansible_host=10.54.244.58 weblogicVersion="12.2.1.3"
+#bea_domain1_VM1 ansible_host=10.54.244.68 weblogicVersion="12.2.1.3"
+#bea_domain1_VM2 ansible_host=10.54.244.69 weblogicVersion="12.2.1.3"
+#bea_domain5_VM1 ansible_host=10.54.244.236 weblogicVersion="12.2.1.3"
+#bea_domain5_VM2 ansible_host=10.54.244.237 weblogicVersion="12.2.1.3"
+#bea_domain6_VM1 ansible_host=10.54.244.238 weblogicVersion="12.2.1.3"
+#bea_domain6_VM2 ansible_host=10.54.244.239 weblogicVersion="12.2.1.3"
+#bea_domain7_VM1 ansible_host=10.54.244.240 weblogicVersion="12.2.1.3"
+#bea_domain7_VM2 ansible_host=10.54.244.241 weblogicVersion="12.2.1.3"
+#bea_domain2_VM1 ansible_host=10.10.136.132 weblogicVersion="12.2.1.4"
+#bea_domain2_VM2 ansible_host=10.10.136.133 weblogicVersion="12.2.1.4"
+#bea_domain8_VM1 ansible_host=10.10.136.134 weblogicVersion="12.2.1.4"
+#bea_domain8_VM2 ansible_host=10.10.136.135 weblogicVersion="12.2.1.4"
+#bea_domain9_VM1 ansible_host=10.10.136.128 weblogicVersion="12.2.1.4"
+#bea_domain9_VM2 ansible_host=10.10.136.129 weblogicVersion="12.2.1.4"
+
+
+#[Cvftest]
+#cvftest_domain3_VM1 ansible_host=10.54.227.180 ansible_ssh_user=esbct03 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#cvftest_domain4_VM1 ansible_host=10.54.227.181 ansible_ssh_user=esbct04 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#cvftest_domain1_VM1 ansible_host=10.54.227.168 ansible_ssh_user=esbct01 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.3" vm1_flag="true"
+#cvftest_domain5_VM1 ansible_host=10.54.227.184 ansible_ssh_user=esbct05 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.3" vm1_flag="true"
+#cvftest_domain6_VM1 ansible_host=10.54.227.186 ansible_ssh_user=esbct06 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.3" vm1_flag="true"
+#cvftest_domain7_VM1 ansible_host=10.54.227.177 ansible_ssh_user=esbct07 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.3" vm1_flag="true"
+#cvftest_domain2_VM1 ansible_host=10.54.249.203 ansible_ssh_user=esbcv02 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.4" vm1_flag="true"
+#cvftest_domain8_VM1 ansible_host=10.54.249.205 ansible_ssh_user=esbct08 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.4" vm1_flag="true"
+#cvftest_domain9_VM1 ansible_host=10.54.249.207 ansible_ssh_user=esbct09 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.4" vm1_flag="true"
+#
+#[Pluto]
+#pluto_domain3_VM1 ansible_host=10.54.227.180 ansible_ssh_user=esbpl03 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#pluto_domain4_VM1 ansible_host=10.54.227.181 ansible_ssh_user=esbpl04 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#pluto_domain1_VM1 ansible_host=10.54.227.168 ansible_ssh_user=esbpl01 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.3" vm1_flag="true"
+#pluto_domain5_VM1 ansible_host=10.54.227.184 ansible_ssh_user=esbpl05 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.3" vm1_flag="true"
+#pluto_domain6_VM1 ansible_host=10.54.227.186 ansible_ssh_user=esbpl06 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.3" vm1_flag="true"
+#pluto_domain7_VM1 ansible_host=10.54.227.177 ansible_ssh_user=esbpl07 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#pluto_domain2_VM1 ansible_host=10.54.249.203 ansible_ssh_user=esbpl02 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.4" vm1_flag="true"
+#pluto_domain8_VM1 ansible_host=10.54.249.205 ansible_ssh_user=esbpl08 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.4" vm1_flag="true"
+#pluto_domain9_VM1 ansible_host=10.54.249.207 ansible_ssh_user=esbpl09 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.4" vm1_flag="true"
+#
+#
+#[mars]
+#mars_domain3_VM1 ansible_host=10.54.227.179 ansible_ssh_user=esbma03 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain4_VM1 ansible_host=10.54.227.182 ansible_ssh_user=esbma04 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain1_VM1 ansible_host=10.54.227.167 ansible_ssh_user=esbma01 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain5_VM1 ansible_host=10.54.227.183 ansible_ssh_user=esbma05 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain6_VM1 ansible_host=10.54.227.185 ansible_ssh_user=esbma06 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain7_VM1 ansible_host=10.54.227.178 ansible_ssh_user=esbma07 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#mars_domain2_VM1 ansible_host=10.54.249.204 ansible_ssh_user=esbma02 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.4" vm1_flag="true"
+#mars_domain8_VM1 ansible_host=10.54.249.206 ansible_ssh_user=esbma08 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.4" vm1_flag="true"
+#mars_domain9_VM1 ansible_host=10.54.249.208 ansible_ssh_user=esbma09 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.4" vm1_flag="true"
+#
+#[bacchus]
+#bacchus_domain3_VM1 ansible_host=10.54.227.179 ansible_ssh_user=esbba03 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain4_VM1 ansible_host=10.54.227.182 ansible_ssh_user=esbba04 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain1_VM1 ansible_host=10.54.227.167 ansible_ssh_user=esbba01 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain5_VM1 ansible_host=10.54.227.183 ansible_ssh_user=esbba05 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain6_VM1 ansible_host=10.54.227.185 ansible_ssh_user=esbba06 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain7_VM1 ansible_host=10.54.227.178 ansible_ssh_user=esbba07 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.3" vm1_flag="true"
+#bacchus_domain2_VM1 ansible_host=10.54.249.204 ansible_ssh_user=esbba02 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.4" vm1_flag="true"
+#bacchus_domain8_VM1 ansible_host=10.54.249.206 ansible_ssh_user=esbba08 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.4" vm1_flag="true"
+#bacchus_domain9_VM1 ansible_host=10.54.249.208 ansible_ssh_user=esbba09 admin_port=61030 admin_password=removed manserverslist="managed1_" manserverportslist=61031 weblogicVersion="12.2.1.4" vm1_flag="true"
+#
+#[bea_MarsBacchus]
+#bea_blt10639177 ansible_host=10.54.227.179 weblogicVersion="12.2.1.3"
+#bea_blt10639180 ansible_host=10.54.227.182 weblogicVersion="12.2.1.3"
+#bea_blt10639170 ansible_host=10.54.227.167 weblogicVersion="12.2.1.3"
+#bea_blt10639181 ansible_host=10.54.227.183 weblogicVersion="12.2.1.3"
+#bea_blt10639184 ansible_host=10.54.227.185 weblogicVersion="12.2.1.3"
+#bea_blt10639176 ansible_host=10.54.227.178 weblogicVersion="12.2.1.3"
+#bea_blt10639204 ansible_host=10.54.249.204 weblogicVersion="12.2.1.4"
+#bea_blt10639206 ansible_host=10.54.249.206 weblogicVersion="12.2.1.4"
+#bea_blt10639208 ansible_host=10.54.249.208 weblogicVersion="12.2.1.4"
+#
+#[bea_CvftestPluto]
+#bea_blt10639178 ansible_host=10.54.227.180 weblogicVersion="12.2.1.3"
+#bea_blt10639179 ansible_host=10.54.227.181 weblogicVersion="12.2.1.3"
+#bea_blt10639171 ansible_host=10.54.227.168 weblogicVersion="12.2.1.3"
+#bea_blt10639182 ansible_host=10.54.227.184 weblogicVersion="12.2.1.3"
+#bea_blt10639184 ansible_host=10.54.227.186 weblogicVersion="12.2.1.3"
+#bea_blt10639175 ansible_host=10.54.227.177 weblogicVersion="12.2.1.3"
+#bea_blt10639203 ansible_host=10.54.249.203 weblogicVersion="12.2.1.4"
+#bea_blt10639205 ansible_host=10.54.249.205 weblogicVersion="12.2.1.4"
+#bea_blt10639207 ansible_host=10.54.249.207 weblogicVersion="12.2.1.4"
+
+#[group1_VM1]
+#jupiter_domain3_VM1 ansible_host=10.54.244.26  ansible_ssh_user=esbju03 admin_port=61010 admin_password=removed manserverslist="managed1_"  manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#jupiter_domain4_VM1 ansible_host=10.54.244.27  ansible_ssh_user=esbju04 admin_port=61030 admin_password=removed manserverslist="managed1_"  manserverportslist=61031 weblogicVersion="12.2.1.3" vm1_flag="true"
+#jupiter_domain1_VM1 ansible_host=10.54.244.27  ansible_ssh_user=esbju01 admin_port=61000 admin_password=removed manserverslist="managed1_"  manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#jupiter_domain5_VM1 ansible_host=10.54.244.221 ansible_ssh_user=esbju05 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.3" vm1_flag="true"
+#jupiter_domain6_VM1 ansible_host=10.54.244.221 ansible_ssh_user=esbju06 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.3" vm1_flag="true"
+#jupiter_domain7_VM1 ansible_host=10.54.244.222 ansible_ssh_user=esbju07 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.3" vm1_flag="true"
+#jupiter_domain2_VM1 ansible_host=10.10.136.119 ansible_ssh_user=esbju02 admin_port=61000 admin_password=removed manserverslist="managed1_" manserverportslist=61001 weblogicVersion="12.2.1.4" vm1_flag="true"
+#jupiter_domain8_VM1 ansible_host=10.10.136.120 ansible_ssh_user=esbju08 admin_port=61010 admin_password=removed manserverslist="managed1_" manserverportslist=61011 weblogicVersion="12.2.1.4" vm1_flag="true"
+#jupiter_domain9_VM1 ansible_host=10.10.136.120 ansible_ssh_user=esbju09 admin_port=61020 admin_password=removed manserverslist="managed1_" manserverportslist=61021 weblogicVersion="12.2.1.4" vm1_flag="true"
+#
+#[bea]
+#bea_blp10639390 ansible_host=10.54.244.26 weblogicVersion="12.2.1.3"
+#bea_blp10639391 ansible_host=10.54.244.27 weblogicVersion="12.2.1.3"
+#bea_blp10639391 ansible_host=10.54.244.27 weblogicVersion="12.2.1.3"
+#bea_blp10639464 ansible_host=10.54.244.221 weblogicVersion="12.2.1.3"
+#bea_blp10639464 ansible_host=10.54.244.221 weblogicVersion="12.2.1.3"
+#bea_blp10639465 ansible_host=10.54.244.222 weblogicVersion="12.2.1.3"
+#bea_blp10639526 ansible_host=10.10.136.119 weblogicVersion="12.2.1.4"
+#bea_blp10639527 ansible_host=10.10.136.120 weblogicVersion="12.2.1.4"
+#bea_blp10639527 ansible_host=10.10.136.120 weblogicVersion="12.2.1.4"
