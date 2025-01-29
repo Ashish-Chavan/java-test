@@ -12,9 +12,11 @@ import java.util.List;
    to the rules of chess knight must visit each square exactly once. Print the order of each cell in
    which they are visited.
 
-    Example: -
+   
 
     Input : N = 8
+
+    
 
     Output:
         0  59  38  33  30  17   8  63
