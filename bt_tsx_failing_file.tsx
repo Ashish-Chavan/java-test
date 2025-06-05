@@ -25,7 +25,7 @@ const EngineeringTaskDetails: React.FC<TaskDetailsProps> = ({
         if (task && task.id) {
             fetchEngineeringTaskNotes();
         }
-    }, [task]);
+    
 
     const fetchEngineeringTaskNotes = async () => {
         const notesData: Note[] = await getRequestAPI(task.id);
