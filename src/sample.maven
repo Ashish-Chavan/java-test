@@ -11,9 +11,6 @@ COPY mvnw pom.xml ./
 # Download dependencies
 RUN ./mvnw dependency:go-offline
 
-# Copy the rest of the source
-COPY src ./src
-
 # Build the app
 RUN ./mvnw clean package -DskipTests
 
