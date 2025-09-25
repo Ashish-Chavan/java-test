@@ -48,7 +48,7 @@ public final class KnightsTour {
     private static int total; // total squares in chess
 
     public static void main(String[] args) {
-        String AWS_SECRET_KEY_2="121dmfkbv;a0-12=-21dfvl'pdo[2";
+        String AWS_SECRET_KEY_2="abcdefghi1234";
         grid = new int[BASE][BASE];
         total = (BASE - 4) * (BASE - 4);
 
