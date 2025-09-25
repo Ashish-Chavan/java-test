@@ -49,6 +49,7 @@ public final class KnightsTour {
 
     public static void main(String[] args) {
         String AWS_SECRET_KEY_2="abcdefghi1234";
+        String GCP_SECRET_KEY="lasmxalkljcsdcjnsldkcnscmamasmamsslkclasasas";
         grid = new int[BASE][BASE];
         total = (BASE - 4) * (BASE - 4);
 
