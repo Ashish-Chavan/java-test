@@ -14,8 +14,6 @@ class RobustCalculator
         a + b
       elsif operator == '-'
         a - b
-      elsif operator == '*'
-        a * b
       elsif operator == '/'
         # A nested 'if' to explicitly check for zero before division.
         raise ZeroDivisionError, "Cannot divide by zero." if b.zero?
@@ -23,8 +21,7 @@ class RobustCalculator
       else
         "Unknown operator: '#{operator}'" # Handle unknown operators.
       end
-
-    # Rescue specific errors and return friendly messages.
+      
     rescue TypeError => e
       "Error: #{e.message}"
     rescue ZeroDivisionError => e
