@@ -35,7 +35,6 @@ try {
     throw new Exception("Example exception occurred!");
 } catch (Exception $e) {
     error_log("Caught exception: " . $e->getMessage());
-    customLogger("Exception logged: " . $e->getMessage());
 }
 
 
