@@ -8,7 +8,6 @@ use warnings;
 my $name = "Alex";
 my $age  = 25;
 
-print "Hello, my name is $name and I am $age years old.\n";
 
 # Array
 my @colors = ("red", "blue", "green");
@@ -17,7 +16,6 @@ foreach my $color (@colors) {
     print "- $color\n";
 }
 
-# Hash (dictionary)
 my %user = (
     username => "alex123",
     email    => "alex@example.com",
