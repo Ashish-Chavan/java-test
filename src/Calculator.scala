@@ -8,8 +8,6 @@ object Calculator {
     val sum = a + b
     if (sum < 0) {
       0
-    } else {
-      sum
-    }
+    } 
   }
 }
