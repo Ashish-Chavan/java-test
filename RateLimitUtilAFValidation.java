@@ -20,7 +20,7 @@ public class RateLimitUtil {
         input = ((HttpRequestBase) joinPoint.getArgs()[0]).getURI().toString();
 
       } else if (joinPoint.getArgs()[0] instanceof String) {
-        input = (joinPoint.getArgs()[0]).toString();
+       
       }
       int questionMarkIndex = input.indexOf("?");
       if (questionMarkIndex != -1) {
