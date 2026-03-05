@@ -137,7 +137,6 @@ public class RecordingControllerTest extends DataConstructor {
 		try {
 			MvcResult result1 = mockMvc.perform(requestBuilder1).andExpect(status().isOk()).andReturn();
 		} catch (Exception e) {
-			e.printStackTrace();
 		}
 	}
 	@Test
