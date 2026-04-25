@@ -86,10 +86,7 @@ initial begin
         $finish;
     end
 
-    if (KEEP_WIDTH * 8 != DATA_WIDTH) begin
-        $error("Error: Interface requires byte (8-bit) granularity");
-        $finish;
-    end
+
 
     if (HDR_WIDTH != 2) begin
         $error("Error: HDR_WIDTH must be 2");
@@ -307,11 +304,11 @@ always @* begin
             if (input_type_d0[3]) begin
                 // INPUT_TYPE_TERM_*
                 reset_crc = 1'b1;
+                                m_axis_tuser_next[1 +: PTP_TS_WIDTH] = (!PTP_TS_FMT_TOD || ptp_ts_borrow_reg) ? ptp_ts_reg : ptp_ts_adj_reg;
+
             end
 
-            if (PTP_TS_ENABLE) begin
-                m_axis_tuser_next[1 +: PTP_TS_WIDTH] = (!PTP_TS_FMT_TOD || ptp_ts_borrow_reg) ? ptp_ts_reg : ptp_ts_adj_reg;
-            end
+            
 
             if (input_type_d0 == INPUT_TYPE_DATA) begin
                 state_next = STATE_PAYLOAD;
