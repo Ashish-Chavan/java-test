@@ -12,10 +12,6 @@ module simple_adder (
     // Internal wire for combinatorial result
     wire [7:0] next_sum;
 
-    // Combinatorial Logic: NOM Hit 1
-    // CYCLO: Base (1)
-    assign next_sum = sum + data_in;
-
     // Sequential Logic: NOM Hit 2
     // CYCLO: Base(1) + If(1) = 2
     always @(posedge clk or posedge reset) begin
