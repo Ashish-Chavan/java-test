@@ -10,4 +10,5 @@ public class SystemSpecsDto {
     public String disk_available;
     public String disk_used;
     public String os;
+    public String os2;
 }
