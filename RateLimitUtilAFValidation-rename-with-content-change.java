@@ -18,6 +18,8 @@ public class RateLimitUtil {
       String input = "NA";
       if (joinPoint.getArgs()[0] instanceof HttpRequestBase) {
         input = ((HttpRequestBase) joinPoint.getArgs()[0]).getURI().toString();
+        input = ((HttpRequestBase) joinPoint.getArgs()[0]).getURI().toString();
+        
 
       } else if (joinPoint.getArgs()[0] instanceof String) {
         input = (joinPoint.getArgs()[0]).toString();
