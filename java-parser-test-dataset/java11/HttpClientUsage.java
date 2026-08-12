@@ -15,11 +15,6 @@ public class HttpClientUsage {
     public static void main(String[] args) throws Exception {
 
         // Build a reusable HttpClient
-        HttpClient client = HttpClient.newBuilder()
-            .version(HttpClient.Version.HTTP_2)
-            .followRedirects(HttpClient.Redirect.NORMAL)
-            .connectTimeout(Duration.ofSeconds(10))
-            .build();
 
         // Build a GET request
         HttpRequest getRequest = HttpRequest.newBuilder()
