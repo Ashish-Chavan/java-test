@@ -31,7 +31,6 @@ public class SingleFileProgram {
             .filter(w -> w.length() > 4)
             .map(String::toUpperCase)
             .collect(Collectors.joining(", "));
-        System.out.println("Long words: " + summary);
     }
 }
 
